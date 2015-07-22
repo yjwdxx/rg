@@ -1,0 +1,110 @@
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom:1;}
+.search {
+    width: 100%;
+    position:relative;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.search span{
+    position:relative;
+    top:18px;
+    left:10px;
+    font-size:16px;
+}
+.searchSelect {
+    width:200px;
+    position:relative;
+    top:-10px;
+    left:55px;
+}
+.practice_detail {
+    width: 100%;
+    padding: 0 15px;
+    color: #fff;
+    text-align: center;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    float: left;
+    display: block
+}
+.creatTeam {
+    width: 73%;
+    height: 400px;
+
+}
+.myForm {
+    width:100%;
+    height:350px;
+    position:relative;
+    font-size:18px;
+    font-family:"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂºÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œ";
+    color:#524F48;
+
+}
+.myForm div{
+    position:relative;
+    top:40px;
+    left:200px;
+    margin-bottom:30px;
+}
+.creatTeamBtn{
+    position:relative;
+    width:300px;
+    left:650px;
+    bottom:20px;
+} 
+.practice_person {
+    width: 1003px;
+    height: 550px;
+    padding-top: 3px ;
+    padding-left: 25px;
+    float: left;
+
+}
+.practice_person_detial {
+    width: 240px;
+    height: 300px;
+}
+.practice_person_detial textarea {
+    width:200px;
+    max-width:200px;
+    max-height:100px;
+    border-radius:5px;
+}
+.practice_person_detial>dt {
+    width: 100px;
+    height: 28px;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px #888888;
+    position:relative;
+    top:10px;
+    left:5px;
+    margin-bottom:30px;
+    text-align: center;
+    line-height: 2;
+    color: #fff;
+    background-color: #337ab7;
+
+}
+.practice_person_detial>dd {
+    width: 200px;
+    height: 30px;
+    position:relative;
+    top:-20px;
+    left:5px;
+}
+.practice_person_detial>button{
+    position:relative;
+    top:80px;
+    left:150px;
+}
