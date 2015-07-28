@@ -72,23 +72,17 @@
 <div class="container-fluid" style="padding-top: 30px;">
    <div class="col-md-3">
     <ol class="breadcrumb">
-     <!--  <li><a href="stu_view_practice_text.html">实验安排</a></li>
-      <li class="active">软件工程C</li> -->
       <li class="active">软件工程</li>
-      <li>
-           <div class="btn-group">
-  <button type="button" class="btn btn-default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;课程学期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="caret"></span>
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="#">2012-2013第一学期</a></li>
-    <li><a href="#">2012-2013第二学期</a></li>
-    <li><a href="#">2013-2014第一学期</a></li>
-    <li><a href="#">2013-2014第二学期</a></li>
-  </ul>
-</div>  
+      <li><form id="schoolTime" method="" action="">
+  <select class="form-control" style="width: 150px">
+  <option>选择学期</option>
+  <option value="2014-2015第二学期">2014-2015第一学期</option>
+  <option value="2014-2015第一学期">2014-2015第一学期</option>
+  <option value="2013-2014第二学期">2013-2014第二学期</option>
+  <option value="2013-2014第一学期">2013-2014第一学期</option>
+  <option value="2012-2013第二学期">2012-2013第二学期</option>
+</select>
+</form> 
       </li>
     </ol>
     <div class="panel panel-primary">
@@ -96,18 +90,18 @@
           <h3 class="panel-title">课内作业</h3>
         </div>
         <div class="panel-body">
-        <table class="table table-hover">
-          <tr><td><a href="#">作业1</a></td></tr>
-          <tr><td><a href="#">作业2</a></td></tr>
-          <tr><td><a href="#">作业3</a></td></tr>
-          <tr><td><a href="#">作业4</a></td></tr>
-          <tr><td><a href="#">作业5</a></td></tr>
+        <table class="table table-hover" id="practiceName">
+          <tr><td><a href="stu_view_practice_showzuoye.html" target="content">熟悉PowerDesigner，完成数据库建模</a></td></tr>
+          <tr><td><a href="stu_view_practice_showzuoye.html" target="content">小型应用系统的设计与开发</a></td></tr>
+          <tr><td><a href="stu_view_practice_showzuoye.html" target="content">使用Rose工具进行OO建模</a></td></tr>
+          <tr><td><a href="stu_view_practice_showzuoye.html" target="content">熟悉PowerDesigner，完成数据库建模</a></td></tr>
+          <tr><td><a href="stu_view_practice_showzuoye.html" target="content">小型应用系统的设计与开发</a></td></tr>
         </table>
         </div>
     </div>
   </div>
 <div class="col-md-9">
-      <iframe class="embed-responsive-item" src="stu_view_practice_detail_text.html" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="yes" allowtransparency="yes" style="width:100%;height:500px"></iframe>
+      <iframe name="content" class="embed-responsive-item" src="stu_view_practice_detail_text.html" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="yes" allowtransparency="yes" style="width:100%;height:500px"></iframe>
 </div>
 </div>
 </body>
