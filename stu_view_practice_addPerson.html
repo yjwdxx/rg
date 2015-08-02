@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/newadd.css" rel="stylesheet">
+<title>软件工程C详情</title>
+</head>
+<body>
+	<div class="container-fluid"  style="margin-top: 50px;padding:30px 70px;">	
+	  <div class="panel panel-primary" style="position:relative;">
+          <div class="panel-heading">实验小组</div>
+          <div class="panel-body">
+           <dl class="practice_person_detial">
+			<dt>成员姓名</dt>
+				<dd><select id="studentId" onchange=" " class="form-control">
+	                <option selected=" " value=" ">姓名（学号）</option>
+                    <option value=""></option>
+	                <option value=""></option>
+                    </select>
+                </dd>
+				<dt>小组成员分工</dt>
+				<dd><textarea rows="3" name="分工"></textarea></dd>
+		   				
+		   </dl>	
+          </div>
+          <a id="addPerson" class="btn btn-success" href="stu_view_practice_createPersonText.html" style="position:absolute;bottom:20px;left: 300px;">添加</a>
+</div>
+    </div>
+	<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/action.js"></script>
+</body>
+</html>
