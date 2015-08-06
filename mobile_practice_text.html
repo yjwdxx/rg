@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/newadd.css" rel="stylesheet">
-<title>实验安排模块</title>
+    <meta charset="utf-8"/>
+	<title>软工实验模块</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/mobile.css">
 </head>
-<body style="padding-top: 50px;">
-
+<body style="padding: 0 10px;padding-top:60px;background: #eee;">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -30,9 +30,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">实验/作业 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="stu_view_practice_text.html">查看实验/作业安排</a></li>
+            <li><a href="mobile_practice_text.html">查看实验/作业安排</a></li>
             <li class="divider"></li>
-            <li><a href="#">实验小组</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -72,49 +71,8 @@
   </div><!-- /.container-fluid -->
 </nav>
 <div class="container-fluid">
-	<div class="alert alert-success alert-dismissible" role="alert">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	欢迎回来!&nbsp;<strong>张三</strong>同学[04123123]
-</div>
-
-<div class="row" style="padding:10px 20px">
-		<div class="col-md-3">
-		<div class="panel panel-primary">
-		  <div class="panel-heading">
-		    <h3 class="panel-title">信息</h3>
-		  </div>
-		  <div class="panel-body">
-		    2014-2015第二学期的实验信息已更新，请同学们尽快根据本学期的实验进行准备工作
-		  </div>
-		  <ul class="list-group">
-		    <li class="list-group-item"  data-toggle="collapse" href="#collapseNote" aria-expanded="false" aria-controls="collapseNote">
-		    	<strong>新闻通知</strong><span class="badge"></span>
-		    	<div class="collapse" id="collapseNote">
-		    		<br>
-		    		<table class="table table-condensed">
-		    			<tr><td><a href="#">新学期课表已发布，请同学们尽快查看</a></td><td>11-13</td></tr>
-		    			<tr><td><a href="#">学校关于实验选课的新规定</a></td><td>12-8</td></tr>
-		    			<tr><td><a href="#">实验室失物招领，请以下同学尽快持证件来实验室领取</a></td><td>12-5</td></tr>
-		    		</table>
-		    	</div>
-		    </li>
-		    <li class="list-group-item" data-toggle="collapse" href="#collapseHelp" aria-expanded="false" aria-controls="collapseHelp">
-		    	<strong>实验通知</strong>
-		    	<div class="collapse" id="collapseHelp">
-		    		<br>
-		    		<table class="table table-condensed">
-		    			<tr><td><a href="#">java第一次实验结束，尽快提交作业</a></td><td>2-13</td></tr>
-		    			<tr><td><a href="#">计算机网络实验</a></td><td>2-4</td></tr>
-		    			<tr><td><a href="#">嵌入式实验</a></td><td>1-20</td></tr>
-		    			<tr><td><a href="#">计算机组成原理实验</a></td><td>1-17</td></tr>
-		    		</table>
-		    	</div>
-		    </li>
-		  </ul>
-		</div>
-	</div>
-	<div class="col-md-9">	
-<form id="schoolTime" method="" action="">
+  <div class="row">
+  <form id="schoolTime" method="" action="">
   <select class="form-control" style="width: 200px";>
   <option>选择学期</option>
   <option value="2014-2015第二学期">2014-2015第一学期</option>
@@ -125,112 +83,86 @@
 </select>
 </form>
 	<hr>
-	<div class="row">
- <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+    <div class="row">
+ <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/r.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
- <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+ <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/o.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
    <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/java.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
-   <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+   <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/c.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
 </div>
 	<div class="row">
- <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+ <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/r.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
- <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+ <div class="col-xs-6">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/o.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
-   <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+   <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/java.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
-   <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+   <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/c.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
 </div>
 <div class="row">
- <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+ <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/r.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
- <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+ <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/o.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
-   <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+   <div class="col-xs-6 ">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/java.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
-   <div class="col-xs-6 col-md-3">
-    <a href="stu_view_practice_showContent.html" class="thumbnail">
+   <div class="col-xs-6">
+    <a href="mobile_practice_showContent.html" class="thumbnail">
       <img src="img/c.png" alt="...">
       <h5>软件工程</h5>
     </a>
   </div>
 </div>
-   
-    <!-- 分页 -->
-		<!-- <div class="text-center">	
-				<nav>
-				  <ul class="pagination">
-				    <li>
-				      <a href="#" aria-label="Previous">
-				        <span aria-hidden="true">&laquo;</span>
-				      </a>
-				    </li>
-				    <li><a href="#">1</a></li>
-				    <li><a href="#">2</a></li>
-				    <li><a href="#">3</a></li>
-				    <li><a href="#">4</a></li>
-				    <li><a href="#">5</a></li>
-				    <li>
-				      <a href="#" aria-label="Next">
-				        <span aria-hidden="true">&raquo;</span>
-				      </a>
-				    </li>
-				  </ul>
-				</nav>
-			</div> -->
-	</div>
-
 </div>
 </div>
-
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

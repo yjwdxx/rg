@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+  <title>软工实验模块</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="padding: 5px 10px;background:#eee;font-size:18px;font-family:"microsoft yahei",Simsun,Tahoma;color: #000;">
+   <form class="zuoye" method="" action="">
+ <div class="panel panel-default" id="selectRadio">
+  <div class="panel-heading">单项选择题</div>
+  <div class="panel-body">
+    <div class="selectTextList">
+      <ol>
+        <li><h4>一只青蛙一张嘴，两只眼睛四条腿，那么17只青蛙有几条腿？</h4>
+            <div class="radio"><label><input type="radio" name="Radios2" id="optionsRadios1" value="option1">20条腿</label></div>
+            <div class="radio"><label><input type="radio" name="Radios2" id="optionsRadios2" value="option2">
+            48条腿</label></div>
+            <div class="radio"><label><input type="radio" name="Radios2" id="optionsRadios3" value="option3">
+            68条腿</label></div>
+            <div class="radio"><label><input type="radio" name="Radios2" id="optionsRadios4" value="option4">
+            79条腿</label></div>
+        </li>
+        <li><h4>一只青蛙一张嘴，两只眼睛四条腿，那么17只青蛙有几条腿？</h4>
+        <div class="radio"><label><input type="radio" name="Radios2" id="optionsRadios1" value="option1">20条腿</label></div>
+            <div class="radio"><label><input type="radio" name="Radios2" id="optionsRadios2" value="option2">
+            48条腿</label></div>
+            <div class="radio"><label><input type="radio" name="Radios2" id="optionsRadios3" value="option3">
+            68条腿</label></div>
+            <div class="radio"><label><input type="radio" name="Radios2" id="optionsRadios4" value="option4">
+            79条腿</label></div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+  <div class="panel panel-default" id="selectCheck">
+  <div class="panel-heading">多项选择题</div>
+  <div class="panel-body">
+    <div class="selectTextList">
+      <ol>
+        <li><h4>有一只小兔子，她爱吃胡萝卜，也爱吃大青菜，以下哪些不是她的特征？</h4>
+        <div class="checkbox"><label><input type="checkbox" value="">没有尾巴</label></div>
+        <div class="checkbox"><label><input type="checkbox" value="">没有长耳朵</label></div>
+        <div class="checkbox"><label><input type="checkbox" value="">长长的鼻子</label></div>
+        <div class="checkbox"><label><input type="checkbox" value="">会发出呜呜的声音</label></div>
+        </li>
+        <li><h4>有一只小兔子，她爱吃胡萝卜，也爱吃大青菜，以下哪些不是她的特征？</h4>
+        <div class="checkbox"><label><input type="checkbox" value="">没有尾巴</label></div>
+        <div class="checkbox"><label><input type="checkbox" value="">没有长耳朵</label></div>
+        <div class="checkbox"><label><input type="checkbox" value="">长长的鼻子</label></div>
+        <div class="checkbox"><label><input type="checkbox" value="">会发出呜呜的声音</label></div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+ <div class="panel panel-default" id="fillBlank">
+  <div class="panel-heading">填空题</div>
+  <div class="panel-body">
+  <ol>
+  <li>
+     <h4>百日依山尽，__入海流。欲穷_____,更上一层楼。</h4>
+   <div class="row"><div class="col-xs-6"><input type="text" class="form-control"></div>
+   <div class="row"><div class="col-xs-5"><input type="text" class="form-control"></div>
+  </li>
+  <li>
+     <h4>百日依山尽，__入海流。欲穷_____,更上一层楼。</h4>
+   <div class="row"><div class="col-xs-6"><input type="text" class="form-control"></div>
+   <div class="row"><div class="col-xs-5"><input type="text" class="form-control"></div>
+  </li>
+  </ol>
+  </div>
+</div>
+  <div class="panel panel-default" id="simple">
+  <div class="panel-heading">简答题</div>
+  <div class="panel-body">
+  <ol>
+  <li>
+     <h4>请描述一下你的兴趣爱好</h4>
+    <textarea class="form-control" rows="5"></textarea>
+  </li>
+  <li>
+     <h4>你印象最深刻的事情是什么？</h4>
+    <textarea class="form-control" rows="5"></textarea>
+  </li>
+  </ol>
+  </div>
+</div>
+  <div class="panel panel-default" id="code">
+  <div class="panel-heading">编程题</div>
+  <div class="panel-body">
+  <ol>
+  <li>
+     <h4>用Java写出100以内的素数</h4>
+    <textarea class="form-control" rows="10"></textarea>
+  </li>
+  <li>
+     <h4>给一个数组排序</h4>
+    <textarea class="form-control" rows="10"></textarea>
+  </li>
+  </ol>
+  </div>
+</div>
+ <button type="submit" class="btn btn-success" style="position:absolute; right:120px;width:80px;">提交</button>
+  <a class="btn btn-info" href="mobile_practice_showzuoye.html" style="position:absolute; right:30px;width:80px;">返回</a>
+</form>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
